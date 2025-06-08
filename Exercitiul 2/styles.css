@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main {
+    background-color: rgb(165, 165, 165);
+    width: 30%;
+    height: 520px;
+    margin: auto;
+    border-radius: 20px;
+}
+.titlu {
+    margin: 15px 35px;
+    color: darkblue;
+}
+.nume {
+   padding: 10px 10px 0px 10px;
+   gap: 5px;
+   margin: 10px 10px 0px 10px;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+.nume label 
+{
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+   gap: 5px;
+   color: darkblue;
+}
+.nume input {
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+.subiect {
+    padding: 0 35px;
+}
+.subiect label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    color: darkblue;
+}
+.subiect input {
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+.mesaj {
+  padding: 0 35px;
+}
+.mesaj label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    color: darkblue;
+}
+.mesaj input {
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+.check {
+    padding: 5px 34px;
+}
+button {
+   color: white;
+   background-color: rgb(0, 0, 219);
+   margin-top: 10px;
+   padding: 10px;
+   font-size: 16px;
+   margin-left: 38%;
+   margin-right: 39%;
+   width: 100px;
+   border-radius: 10px;
+   border: 1px solid black;
+   box-shadow: 0px 2px 12px rgb(56, 56, 56);
+   transition-duration: 0.5s;
+}
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: darkcyan;
+}
